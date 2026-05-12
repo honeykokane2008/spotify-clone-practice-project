@@ -26,6 +26,7 @@ header {
     position: sticky;
     top: 0;
     background-color: var(--dark);
+    z-index: 2;
 
 }
 
@@ -115,8 +116,11 @@ nav {
     justify-content: space-evenly;
     background: linear-gradient(135deg, #1a0a08 60%, #3a0e08 100%);
     height: 75vh;
+    width: auto;
     align-items: center;
     gap: 200px;
+    display: grid;
+    grid-template-columns: 400px 400px;
 
 }
 
@@ -145,7 +149,7 @@ nav {
 
 .hero-left em {
     color: var(--gold);
-    
+
 }
 
 .hero-left p {
@@ -208,7 +212,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: relative;
-    
+
 }
 
 
@@ -216,7 +220,7 @@ nav {
     height: 320px;
     width: 420px;
     border-radius: 10%;
-    
+
 
 }
 
@@ -270,24 +274,24 @@ nav {
     margin: 10px;
 }
 
-.offer-section{
+.offer-section {
     height: 10vh;
     background-color: var(--dark);
-    border-top:2px solid var(--border);
-    border-bottom:2px solid var(--border);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     color: var(--text-light);
     font-size: 20px;
 }
 
-.offer-section em{
+.offer-section em {
     color: var(--gold);
 }
 
-.offer-btn{
+.offer-btn {
     color: var(--bg);
     font-weight: 700;
     height: 40px;
@@ -298,4 +302,116 @@ nav {
     justify-content: center;
     align-items: center;
 
+}
+
+/* special-dishes// */
+
+.special-dishes {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    height: 90vh;
+    width: auto;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.title-line {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px auto;
+    width: 300px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: var(--gold);
+}
+
+.diamond {
+    color: var(--gold);
+    font-size: 14px;
+}
+
+.special-dishes h1 {
+    color: var(--white);
+}
+
+.special-dishes p {
+    color: var(--text-light);
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dishes-card {
+    margin-top: 40px;
+    height: 380px;
+    width: 100%;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dishes-img {
+    height: 190px;
+    width: 100%;
+}
+
+.dishes-img img {
+    height: 190px;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.order-btn {
+  color: var(--bg);
+    font-weight: 700;
+    height: 40px;
+    width: 80%;
+    border-radius: 6px;
+    background-color: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dishes-info h4{
+    color: var(--white);
+}
+.dishes-bottom{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        gap: 10px;  
+}
+.dishes-bottom span {
+    color: var(--gold);
+}
+
+.dishes-info {
+    padding: 2px;
+    align-items: left;
+    margin-left: 2px;
+}
+
+.dishes-prize {
+    padding: 10px;
 }
