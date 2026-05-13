@@ -581,7 +581,7 @@ nav {
     list-style: none;
 }
 
-li::before {
+.chefs-special-box-right li::before {
     content: '✦';
     color: var(--gold);
     font-size: 0.6rem;
