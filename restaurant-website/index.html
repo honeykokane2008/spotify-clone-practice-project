@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Mysore Kitchen</title>
+    <title>The Honey Kitchen</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +14,7 @@
         <nav>
             <div class="nav-left"><img src="photos/logo.png" class="logo" alt="logo">
                 <span>
-                    <h2>The Mysore Kitchen</h2>
+                    <h2>The Honey Kitchen</h2>
                     <p>Authentic South Indian Taste</p>
                 </span>
             </div>
@@ -23,8 +23,8 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#special">Special</a></li>
+                    <li><a href="#review">Review</a></li>
                     <li><a href="#menu">Menu</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -38,9 +38,9 @@
     <!-- hero section  -->
     <section class="hero" id="home">
         <div class="hero-left">
-            <p class="hero-tag"> Welcome To Mysore Kitchen</p>
+            <p class="hero-tag"> Welcome To Honey Kitchen</p>
             <h1>Authentic South Indian Taste <em> In Every Bite</em></h1>
-            <p>Traditional recipes, fresh ingredients, and the warmth of Mysore — in the heart of Amravati.</p>
+            <p>Traditional recipes, fresh ingredients, and the warmth of Honey — in the heart of Amravati.</p>
 
             <div class="hero-btn">
                 <a href="#menu" class="a-menu">View Menu --></a>
@@ -93,7 +93,7 @@
             <span class="diamond">✦</span>
             <span class="line"></span>
         </div>
-        <h1 class="special-heading">Mysore Kitchen Speial</h1>
+        <h1 class="special-heading">Honey Kitchen Speial</h1>
         <p class="special-discription">Some of our most loved delights</p>
 
         <div class="dishes-grid">
@@ -226,8 +226,8 @@
             </div>
             <div class="chefs-special-box-right">
                 <p class="special-tag">✦ Chef's Special</p>
-                <h2 class="special-heading">Mysore Cheese Dosa</h2>
-                <P>A perfect blend of crispy dosa, spicy mysore masala and grated cheese. A must try for cheese lovers!
+                <h2 class="special-heading">Honey Cheese Dosa</h2>
+                <P>A perfect blend of crispy dosa, spicy Honey masala and grated cheese. A must try for cheese lovers!
                 </P>
                 <ul>
                     <li> Made with premium ingredients</li>
@@ -240,7 +240,9 @@
 
     </section>
 
-    <section class="review">
+    <!-- review// -->
+
+    <section class="review" id="review">
         <div class="title-line">
             <span class="line"></span>
             <span class="diamond">✦</span>
@@ -250,34 +252,145 @@
         <h4 class="why-heading">What Our Customer Says</h4>
 
         <div class="review-grid">
-            <div class="feview-card">
+            <div class="review-card">
                 <div class="star">⭐⭐⭐⭐⭐</div>
                 <p>"The best South Indian food I've ever had! Authentic taste just like home."</p>
-                <div class="reviewer">Subhash Kokane</div>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">S</div>
+                    <strong>Subhash Kokane</strong>
+                </div>
             </div>
 
-            <div class="feview-card">
+            <div class="review-card">
                 <div class="star">⭐⭐⭐⭐⭐</div>
                 <p>"Loved the variety in the thali. Everything was fresh and delicious."</p>
-                <div class="reviewer">Mrunal Kokane</div>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">M</div>
+                    <strong>Mrunal Kokane</strong>
+                </div>
             </div>
 
-            <div class="feview-card">
+            <div class="review-card">
                 <div class="star">⭐⭐⭐⭐⭐</div>
                 <p>"Amazing ambience and great service. Their filter coffee is addictive!."</p>
-                <div class="reviewer">Mangla Tayde</div>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">M</div>
+                    <strong>Mangla Tayde</strong>
+                </div>
             </div>
 
-            <div class="feview-card">
+            <div class="review-card">
                 <div class="star">⭐⭐⭐⭐⭐</div>
-                <p>"Mysore Masala Dosa is a must try. Perfect spices and super crispy."</p>
-                <div class="reviewer">Honey Kokane</div>
+                <p>"Honey Masala Dosa is a must try. Perfect spices and super crispy."</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">H</div>
+                    <strong>Honey's Kokane</strong>
+                </div>
+            </div>
+
+            <div class="review-card-big">
+                <div class="review-star">
+                    <h2>4.8⭐</h2>
+                </div>
+                <p>Out of 5</p>
+                <p>Based on 500+</p>
+                <p>Reviews</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- menu// -->
+
+    <section class="menu" id="menu">
+        <div class="title-line">
+            <span class="line"></span>
+            <span class="diamond">✦</span>
+            <span class="line"></span>
+        </div>
+
+        <h4 class="why-heading">What Our Customer Says</h4>
+        
+        <div class="time-btn">
+            <button><a href="#menu">Breakfast</a></button>
+            <button><a href="#menu">Breakfast</a></button>
+            <button><a href="#menu">Breakfast</a></button>
+            <button><a href="#menu">Breakfast</a></button>
+        </div>
+
+        <div class="menu-search">
+            <form action="/search" method="get">
+                <input type="text" placeholder="Search Your Dish" name="dishes" class="seach-bar">
+                <button type="submit" class="search-btn">&#128269</button>
+            </form>
+        </div>
+
+        <div class="menu-list">
+            <div class="menu-item">
+                <div>
+                    <h2>Masala Dhosa</h2>
+                    <p>Crispy dosa served with chutney & sambar</p>
+                </div>
+                <span>₹196</span>
+            </div>
+        </div>
+
+        <div class="menu-list">
+            <div class="menu-item">
+                <div>
+                    <h2>Masala Dhosa</h2>
+                    <p>Crispy dosa served with chutney & sambar</p>
+                </div>
+                <span>₹196</span>
             </div>
         </div>
 
 
-    </section>
+        <div class="menu-list">
+            <div class="menu-item">
+                <div>
+                    <h2>Masala Dhosa</h2>
+                    <p>Crispy dosa served with chutney & sambar</p>
+                </div>
+                <span>₹196</span>
+            </div>
+        </div>
 
+        <div class="menu-list">
+            <div class="menu-item">
+                <div>
+                    <h2>Masala Dhosa</h2>
+                    <p>Crispy dosa served with chutney & sambar</p>
+                </div>
+                <span>₹196</span>
+            </div>
+        </div>
+
+        <div class="menu-list">
+            <div class="menu-item">
+                <div>
+                    <h2>Masala Dhosa</h2>
+                    <p>Crispy dosa served with chutney & sambar</p>
+                </div>
+                <span>₹196</span>
+            </div>
+        </div>
+
+        <div class="menu-list-last">
+            <div class="menu-item">
+                <div>
+                    <h2>Masala Dhosa</h2>
+                    <p>Crispy dosa served with chutney & sambar</p>
+                </div>
+                <span>₹196</span>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
 </body>
 
 </html>
